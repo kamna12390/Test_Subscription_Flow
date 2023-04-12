@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#7C000000</color>
+
+    <color name="colorPick">#fc7e53</color>
+    <color name="colorDialogText">#fc7e53</color>
+    <color name="colorDialogText1">#949394</color>
+    <color name="nav_color_one">#E6F7E6DA</color>
+</resources>
