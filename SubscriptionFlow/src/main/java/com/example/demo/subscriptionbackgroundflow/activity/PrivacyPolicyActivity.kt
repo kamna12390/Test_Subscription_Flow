@@ -12,7 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import com.example.demo.subscriptionbackgroundflow.R
 import com.example.demo.subscriptionbackgroundflow.basemodule.BaseActivity
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection
+import com.example.demo.subscriptionbackgroundflow.helper.isOnline
 import kotlinx.android.synthetic.main.activity_privacy_policy.*
 
 class PrivacyPolicyActivity : BaseActivity() {
@@ -33,7 +33,7 @@ class PrivacyPolicyActivity : BaseActivity() {
         mInternetDisable = findViewById<ConstraintLayout>(R.id.ctInternetDisable)
         mWebview = findViewById(R.id.webView)
         ctOffline = findViewById(R.id.ctOffline)
-        if (!InternetConnection.checkConnection(this)) {
+        if (!isOnline) {
             ctOffline!!.visibility=View.VISIBLE
             mWebview!!.visibility=View.GONE
         }else{
@@ -42,7 +42,7 @@ class PrivacyPolicyActivity : BaseActivity() {
         }
         mInternetDisable?.setOnClickListener {
 
-            if (!InternetConnection.checkConnection(this)) {
+            if (!isOnline) {
                 ctOffline!!.visibility=View.VISIBLE
                 mWebview!!.visibility=View.GONE
                 Toast.makeText(

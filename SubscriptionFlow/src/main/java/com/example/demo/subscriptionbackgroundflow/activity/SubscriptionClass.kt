@@ -8,7 +8,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import com.example.demo.subscriptionbackgroundflow.basemodule.BaseSharedPreferences
 import com.example.demo.subscriptionbackgroundflow.constants.Constants
+import com.example.demo.subscriptionbackgroundflow.constants.Constants.BASIC_SKU
+import com.example.demo.subscriptionbackgroundflow.constants.Constants.IMAGE_CROP
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.IsOutAppPermission
+import com.example.demo.subscriptionbackgroundflow.constants.Constants.PREMIUM_SIX_SKU
+import com.example.demo.subscriptionbackgroundflow.constants.Constants.PREMIUM_SKU
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.isDebugMode
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.isoutApp
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mAppIcon
@@ -29,8 +33,8 @@ import com.example.demo.subscriptionbackgroundflow.viewmodel.Config
 import com.revenuecat.purchases.Purchases
 import com.revenuecat.purchases.PurchasesConfiguration
 import com.revenuecat.purchases.getOfferingsWith
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
+//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
  object SubscriptionClass {
     public class ActivityBuilder(private val activity: Context) :
         Builder(activity) {
@@ -50,6 +54,7 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
 //                        "yagnik",
 //                        "suc-> 1 ${"originalPrice :- " + it[0].product.originalPrice + "\n" + "freeTrialPeriod :- " + it[0].product.freeTrialPeriod + "\n" + "title :- " + it[0].product.title + "\n" + "price :- " + it[0].product.price + "\n" + "description :- " + it[0].product.description + "\n" + "subscriptionPeriod :- " + it[0].product.subscriptionPeriod + "\n" + "sku :- " + it[0].product.sku + "\n"}"
 //                    )
+                    logD("SubscriptionList", "1->${it[0].product.sku}--2->${it[1].product.sku}--3->${it[0].product.sku}")
                     packagerenlist?.clear()
                     Constants.BASIC_SKU = it[0].product.sku
                     Constants.PREMIUM_SKU = it[1].product.sku
@@ -91,8 +96,8 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
         override fun Adsliber(int: Int,life: LifecycleOwner): Builder {
             logD("mAdsAppID", "mAdsAppID->$int---$isDebugMode")
 //            Toast.makeText(activity,"mAdsAppID->$int---$isDebugMode",Toast.LENGTH_LONG).show()
-            Helper().startDataSync(activity, life)
-            AppIDs.init(activity, int, false)
+//            Helper().startDataSync(activity, life)
+//            AppIDs.init(activity, int, false)
             logD(
                 "SubscriptionList",
                 "=->${packagerenlist?.toString()}"
@@ -107,7 +112,7 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
         constructor(fragment: Fragment) : super(fragment.context) {}
 
         fun setPREMIUM_SIX_SKU(string: String): Builder {
-            config.setPREMIUM_SIX_SKU(string)
+            PREMIUM_SIX_SKU=string
             return this
         }
 
@@ -116,7 +121,7 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
         }
 
         fun setBASIC_SKU(string: String): Builder {
-            config.setBASIC_SKU(string)
+            BASIC_SKU=string
             return this
         }
 
@@ -125,7 +130,7 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
         }
 
         fun setPREMIUM_SKU(string: String): Builder {
-            config.setPREMIUM_SKU(string)
+            PREMIUM_SKU=string
             return this
         }
 
@@ -134,7 +139,7 @@ import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppID
         }
 
         fun setIMAGE_CROP(string: String): Builder {
-            config.setIMAGE_CROP(string)
+            IMAGE_CROP=string
             return this
         }
 

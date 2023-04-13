@@ -44,7 +44,7 @@ class BillingViewModel(application : Application) : AndroidViewModel(application
      * Buy a basic subscription.
      */
     fun buyBasic() {
-        Log.d(TAG, "buyBasic: ${purchases.value}")
+        Log.d(TAG, "buyBasic: ${purchases.value}--${Constants.BASIC_SKU}--${Constants.PREMIUM_SKU}")
         val hasBasic = deviceHasGooglePlaySubscription(purchases.value, Constants.BASIC_SKU)
         val hasPremium = deviceHasGooglePlaySubscription(purchases.value, Constants.PREMIUM_SKU)
         Log.d("Billing", "hasBasic: $hasBasic, hasPremium: $hasPremium")

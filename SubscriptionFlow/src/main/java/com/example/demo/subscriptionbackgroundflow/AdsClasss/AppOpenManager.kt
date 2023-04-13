@@ -12,7 +12,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.FullScreenContentCallback
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.appopen.AppOpenAd
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -42,12 +42,12 @@ class AppOpenManager(var myApplication: Context) {
         }
         
         var s = if (Adx) {
-//            "ca-app-pub-3940256099942544/3419835294"
-            AppIDs.instnace?.getAdxOpenAds() ?: ""
+            "ca-app-pub-3940256099942544/3419835294"
+//            AppIDs.instnace?.getAdxOpenAds() ?: ""
         }
         else {
-//            "ca-app-pub-3940256099942544/3419835294"
-            AppIDs.instnace?.getGoogleOpenAds() ?: ""
+            "ca-app-pub-3940256099942544/3419835294"
+//            AppIDs.instnace?.getGoogleOpenAds() ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  AppOpenID ->$s")
         isSend = true

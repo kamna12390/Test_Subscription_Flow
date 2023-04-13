@@ -15,6 +15,7 @@ import com.example.demo.subscriptionbackgroundflow.AdsClasss.AppOpenManager
 import com.example.demo.subscriptionbackgroundflow.AdsClasss.InterstitialAds
 import com.example.demo.subscriptionbackgroundflow.R
 import com.example.demo.subscriptionbackgroundflow.basemodule.BaseSharedPreferences
+import com.example.demo.subscriptionbackgroundflow.constants.Constants
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mHEIGHT
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mWIDTH
 import com.example.demo.subscriptionbackgroundflow.databinding.ActivitySubscriptionBackgroundBinding
@@ -178,6 +179,7 @@ class SubscriptionBackgroundActivity : BaseSubscriptionActivity() {
     }
 
     fun NextActivity() {
+        Constants.isoutApp=true
         startActivity(Intent(this, Class.forName(mNextIntent)))
 //        finish()
     }
@@ -202,6 +204,7 @@ class SubscriptionBackgroundActivity : BaseSubscriptionActivity() {
     }
 
     private fun showBackPress() {
+        Constants.isoutApp=true
 //        mProgressBar!!.dismiss()
 
 //        try {

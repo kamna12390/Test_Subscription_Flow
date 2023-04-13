@@ -18,7 +18,7 @@ import com.google.android.gms.ads.*
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import com.google.android.gms.ads.nativead.NativeAdView
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 import org.jetbrains.anko.layoutInflater
 
 class NativeAds {
@@ -27,11 +27,11 @@ class NativeAds {
     var isSend = false
     fun loadNativeAds(context: Context, Adx:Boolean?=false, fAdContainer: FrameLayout, listener: (Int) -> Unit) {
         var s =if (Adx==true){
-//            "ca-app-pub-3940256099942544/2247696110"
-            AppIDs.instnace?.getGoogleAdxNative()
+            "ca-app-pub-3940256099942544/2247696110"
+//            AppIDs.instnace?.getGoogleAdxNative()
         }else{
-//            "ca-app-pub-3940256099942544/2247696110"
-            AppIDs.instnace?.getGoogleNative()
+            "ca-app-pub-3940256099942544/2247696110"
+//            AppIDs.instnace?.getGoogleNative()
         }
         logD(TAG, "MEDIUM_RECTANGLE  NativeID ->$s")
         if (isSend){

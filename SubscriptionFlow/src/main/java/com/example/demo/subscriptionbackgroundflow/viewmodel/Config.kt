@@ -16,10 +16,10 @@ import com.example.demo.subscriptionbackgroundflow.constants.Constants.isoutApp
 public class Config() : Parcelable {
     @RequiresApi(Build.VERSION_CODES.Q)
     constructor(parcel: Parcel) : this() {
-        PREMIUM_SIX_SKU = parcel.readString().toString()
-        BASIC_SKU = parcel.readString().toString()
-        PREMIUM_SKU = parcel.readString().toString()
-        IMAGE_CROP = parcel.readString().toString()
+//        PREMIUM_SIX_SKU = parcel.readString().toString()
+//        BASIC_SKU = parcel.readString().toString()
+//        PREMIUM_SKU = parcel.readString().toString()
+//        IMAGE_CROP = parcel.readString().toString()
         isoutApp = parcel.readBoolean()
         IsOutAppPermission = parcel.readBoolean()
         isAdsShowing = parcel.readBoolean()
@@ -52,7 +52,7 @@ public class Config() : Parcelable {
     }
 
     fun setPREMIUM_SIX_SKU(string: String){
-        PREMIUM_SIX_SKU=string
+//        PREMIUM_SIX_SKU=string
     }
 
     fun getPREMIUM_SIX_SKU():String{
@@ -60,20 +60,20 @@ public class Config() : Parcelable {
     }
 
     fun setBASIC_SKU(string: String){
-        BASIC_SKU=string
+//        BASIC_SKU=string
     }
     fun getBASIC_SKU(): String {
         return BASIC_SKU
     }
     fun setPREMIUM_SKU(string: String){
-        PREMIUM_SKU=string
+//        PREMIUM_SKU=string
     }
     fun getPREMIUM_SKU(): String {
         return PREMIUM_SKU
     }
 
     fun setIMAGE_CROP(string: String){
-        IMAGE_CROP=string
+//        IMAGE_CROP=string
     }
    fun getIMAGE_CROP(): String {
        return IMAGE_CROP

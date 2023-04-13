@@ -15,7 +15,6 @@ import com.example.demo.subscriptionbackgroundflow.db.AppDatabase
 import com.example.demo.subscriptionbackgroundflow.executors.AppExecutors
 import com.example.demo.subscriptionbackgroundflow.helper.logD
 import com.example.demo.subscriptionbackgroundflow.repository.DataRepository
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 import org.jetbrains.anko.displayMetrics
 
 open class AppSubscription : Application(){

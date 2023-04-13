@@ -54,7 +54,7 @@ object Constants {
         val mLineRight:Boolean,
         val mIconLine:Drawable
     )
-    //    var PREMIUM_SIX_SKU = "subscribe_weekly_imagecrop"
+//            var PREMIUM_SIX_SKU = "subscribe_weekly_imagecrop"
 //
 //    var BASIC_SKU = "subscribe_monthly_imagecrop"
 //
