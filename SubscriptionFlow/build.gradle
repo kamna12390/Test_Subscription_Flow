@@ -1,9 +1,9 @@
-plugins {
-    id 'com.android.library'
-}
-apply plugin: 'kotlin-android'
+
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'maven-publish'
 
 android {
     namespace 'com.example.demo.subscriptionbackgroundflow'
@@ -85,4 +85,17 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:20.2.0'
 
 //    implementation project(path: ':myadslibrary')
+}
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.kamna12390'
+                artifactId = 'Subscription_Flow'
+                version = "1.0.3"
+            }
+        }
+    }
 }
