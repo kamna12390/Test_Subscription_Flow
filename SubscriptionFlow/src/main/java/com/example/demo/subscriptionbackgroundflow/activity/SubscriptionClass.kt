@@ -31,8 +31,7 @@ import com.revenuecat.purchases.PurchasesConfiguration
 import com.revenuecat.purchases.getOfferingsWith
 import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
 import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
-
-open class SubscriptionClass {
+ object SubscriptionClass {
     public class ActivityBuilder(private val activity: Context) :
         Builder(activity) {
         override fun Subcall(): Builder {
