@@ -9,7 +9,6 @@ android {
 
     defaultConfig {
         applicationId "com.example.demo.testsubscriptionflow"
-//        applicationId "com.crop.photo.image.resize.cut.tools"
         minSdk 24
         targetSdk 32
         versionCode 1
