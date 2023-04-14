@@ -77,7 +77,8 @@ abstract class BaseActivity : AppCompatActivity() {
                         }
 
                     }
-                } else if (mTwoDay!!) {
+                }
+                else if (mTwoDay!!) {
                     Log.d(
                         TAG,
                         "AppBackgroundFlow->:Second day App Open On Background->${

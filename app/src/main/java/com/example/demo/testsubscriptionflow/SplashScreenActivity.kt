@@ -35,7 +35,6 @@ class SplashScreenActivity : SubSplashBaseActivity() {
         sku: String,
         orderId: String
     ) {
-
     }
 
     private fun createTimer(seconds: Long) {
@@ -115,6 +114,8 @@ class SplashScreenActivity : SubSplashBaseActivity() {
                     }
                     else {
                         //Ads Showing
+                        mTwoDay=false
+                        mOneDay=false
                         logD(TAG, "->Second Day Ads Showing")
                         mOpenAdsShow = true
                         appOpenManager!!.showAdIfAvailable(this@SplashScreenActivity,
@@ -163,6 +164,8 @@ class SplashScreenActivity : SubSplashBaseActivity() {
                     //Ads Showing
                     logD(TAG, "->Three Day Ads Showing")
                     mOpenAdsShow = true
+                    mTwoDay=false
+                    mOneDay=false
                     appOpenManager!!.showAdIfAvailable(this@SplashScreenActivity,
                         object : AppOpenManager.OnShowAdCompleteListener {
                             override fun onShowAdComplete() {

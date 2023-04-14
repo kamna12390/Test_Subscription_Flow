@@ -8,8 +8,9 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.demo.testsubscriptionflow"
-        minSdk 24
+//        applicationId "com.example.demo.testsubscriptionflow"
+        applicationId "com.crop.photo.image.resize.cut.tools"
+        minSdk 19
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -26,6 +27,9 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
     }
 //    kotlinOptions {
 //        jvmTarget = '1.8'

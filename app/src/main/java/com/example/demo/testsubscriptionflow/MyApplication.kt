@@ -25,23 +25,6 @@ import com.example.demo.subscriptionbackgroundflow.helper.logD
 
 class MyApplication : AppSubscription(), LifecycleObserver,
     Application.ActivityLifecycleCallbacks {
-//    private val mPremiumLine = arrayOf(
-//        "Custom Size" to false,
-//        "Multiple Merge Video" to false,
-//        "Unique Mp3 Cutter" to false,
-//        "Advance Editing Tool" to false,
-//        "Remove ADS" to true,
-//        "24/7 Customer Support" to false
-//    )
-
-    private val mPremiumScreenLine = arrayOf(
-        "Advanced Editing Tool",
-        "Effective Backgrounds",
-        "Unlimited Emojis & Fonts",
-        "All PRO Creative Templates",
-        "Ads Free Experience",
-        "No pay for any design"
-    )
     private var mPackagerenList = arrayListOf(
         Constants.PackagesRen(
             originalPrice = "₹650.00",
