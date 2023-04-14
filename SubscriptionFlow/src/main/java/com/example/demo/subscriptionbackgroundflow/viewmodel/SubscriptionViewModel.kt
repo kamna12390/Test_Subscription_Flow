@@ -201,14 +201,14 @@ class SubscriptionViewModel(
                         mActivity.resources.getIdentifier(id_name, "id", mActivity.packageName)
                     val txt: TextView = mActivity.findViewById(redId)
                     txt.visibility = View.VISIBLE
-                    txt.text =mPremiumScreenLine!![i]
+                    txt.text =mPremiumScreenLine!![i].mLine
 
                     val id_name1 = "img_true${idname[i]}"
                     val redId1 =
                         mActivity.resources.getIdentifier(id_name1, "id", mActivity.packageName)
                     val img_true: ImageView = mActivity.findViewById(redId1)
                     img_true.visibility = View.VISIBLE
-                    img_true.setImageDrawable(Constants.mGreen_True_Icon)
+                    img_true.setImageDrawable(mPremiumScreenLine!![i].mIconLine)
                 }
 
             }

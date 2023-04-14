@@ -22,7 +22,6 @@ import com.example.demo.subscriptionbackgroundflow.constants.Constants.mAppIcon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mAppName
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mBasic_Line_Icon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mClose_Icon
-import com.example.demo.subscriptionbackgroundflow.constants.Constants.mGreen_True_Icon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mPremiumLine
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mPremium_Button_Icon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mPremium_True_Icon

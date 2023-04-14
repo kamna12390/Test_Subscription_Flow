@@ -19,7 +19,6 @@ import com.example.demo.subscriptionbackgroundflow.constants.Constants.mAppIcon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mAppName
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mBasic_Line_Icon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mClose_Icon
-import com.example.demo.subscriptionbackgroundflow.constants.Constants.mGreen_True_Icon
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mNativeAdsLayout
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mPremiumLine
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mPremiumScreenLine
@@ -33,8 +32,8 @@ import com.example.demo.subscriptionbackgroundflow.viewmodel.Config
 import com.revenuecat.purchases.Purchases
 import com.revenuecat.purchases.PurchasesConfiguration
 import com.revenuecat.purchases.getOfferingsWith
-//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
-//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
+import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
  object SubscriptionClass {
     public class ActivityBuilder(private val activity: Context) :
         Builder(activity) {
@@ -96,8 +95,8 @@ import com.revenuecat.purchases.getOfferingsWith
         override fun Adsliber(int: Int,life: LifecycleOwner): Builder {
             logD("mAdsAppID", "mAdsAppID->$int---$isDebugMode")
 //            Toast.makeText(activity,"mAdsAppID->$int---$isDebugMode",Toast.LENGTH_LONG).show()
-//            Helper().startDataSync(activity, life)
-//            AppIDs.init(activity, int, false)
+            Helper().startDataSync(activity, life)
+            AppIDs.init(activity, int, false)
             logD(
                 "SubscriptionList",
                 "=->${packagerenlist?.toString()}"
@@ -192,10 +191,10 @@ import com.revenuecat.purchases.getOfferingsWith
             return this
         }
 
-        fun setGreen_True_Icon(drawable: Drawable): Builder {
-            mGreen_True_Icon = drawable
-            return this
-        }
+//        fun setGreen_True_Icon(drawable: Drawable): Builder {
+//            mGreen_True_Icon = drawable
+//            return this
+//        }
 
         fun setPremium_True_Icon(drawable: Drawable): Builder {
             mPremium_True_Icon = drawable
@@ -232,7 +231,7 @@ import com.revenuecat.purchases.getOfferingsWith
             return this
         }
 
-        fun setMainScreenListOfLine(premiumLine: Array<String>): Builder {
+        fun setMainScreenListOfLine(premiumLine: ArrayList<Constants.LineWithIconModel>): Builder {
             mPremiumScreenLine = premiumLine
             return this
         }

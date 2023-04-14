@@ -9,16 +9,13 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.databinding.DataBindingUtil
-import com.example.demo.subscriptionbackgroundflow.helper.click
 import com.example.demo.subscriptionbackgroundflow.R
 import com.example.demo.subscriptionbackgroundflow.basemodule.BaseSharedPreferences
 import com.example.demo.subscriptionbackgroundflow.constants.Constants
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mHEIGHT
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.mWIDTH
 import com.example.demo.subscriptionbackgroundflow.databinding.ActivitySubscriptionBinding
-import com.example.demo.subscriptionbackgroundflow.helper.getNavigationBarHeight
-import com.example.demo.subscriptionbackgroundflow.helper.getStatusBarHeight
-import com.example.demo.subscriptionbackgroundflow.helper.logD
+import com.example.demo.subscriptionbackgroundflow.helper.*
 import com.example.demo.subscriptionbackgroundflow.ui.BaseSubscriptionActivity
 import com.example.demo.subscriptionbackgroundflow.viewmodel.SubscriptionViewModel
 
@@ -70,15 +67,20 @@ class SubscriptionActivity : BaseSubscriptionActivity(){
             onBackPressed()
         }
         binding.mCLUnlockLayout.setOnClickListener {
-            when (plans) {
-                Constants.BASIC_SKU -> {
-                    onMonthPlan()
-                }
-                Constants.PREMIUM_SKU -> {
-                    onYearPlan()
-                }
+            if (isOnline) {
+                when (plans) {
+                    Constants.BASIC_SKU -> {
+                        onMonthPlan()
+                    }
+                    Constants.PREMIUM_SKU -> {
+                        onYearPlan()
+                    }
 
+                }
+            } else {
+                showToast("Please check internet connection.", android.widget.Toast.LENGTH_SHORT)
             }
+
         }
     }
 

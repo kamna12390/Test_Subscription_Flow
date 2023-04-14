@@ -21,7 +21,6 @@ object Constants {
     var IsOutAppPermission:Boolean=false
     var isAdsShowing: Boolean = false
     var packagerenlist: ArrayList<PackagesRen>? = null
-    var mGreen_True_Icon:Drawable?=null
     var mPremium_True_Icon:Drawable?=null
     var mBasic_Line_Icon:Drawable?=null
     var mClose_Icon:Drawable?=null
@@ -33,7 +32,7 @@ object Constants {
     var currentActivity: Activity? = null
     var mNativeAdsLayout: Int? = null
      var mPremiumLine: ArrayList<LineWithIconModel>?=null
-     var mPremiumScreenLine: Array<String>?=null
+     var mPremiumScreenLine: ArrayList<LineWithIconModel>?=null
     var mHEIGHT:Int?=0
     var mWIDTH:Int?=0
     data class PackagesRen(

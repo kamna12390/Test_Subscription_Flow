@@ -13,7 +13,7 @@ import com.example.demo.subscriptionbackgroundflow.basemodule.BaseSharedPreferen
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.isoutApp
 import com.example.demo.subscriptionbackgroundflow.helper.logD
 import com.google.android.gms.ads.*
-//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 import org.jetbrains.anko.windowManager
 
 
@@ -33,11 +33,11 @@ object BannerAd {
         }
         var adView: AdView = AdView(context)
         var s = if (Adx) {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
         } else {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleBanner()!! ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleBanner()!! ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  BannerID ->$s")
         adView.adUnitId = s
@@ -116,11 +116,11 @@ object BannerAd {
 
         var adView: AdView = AdView(context)
         var s = if (Adx) {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
         } else {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleBanner()!! ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleBanner()!! ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  BannerID ->$s")
         adView.adUnitId = s
@@ -190,11 +190,11 @@ object BannerAd {
 
         var adView: AdView = AdView(context)
         var s = if (Adx) {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleAdxBanner() ?: ""
         } else {
-            "ca-app-pub-3940256099942544/6300978111"
-//            AppIDs.instnace?.getGoogleBanner()!! ?: ""
+//            "ca-app-pub-3940256099942544/6300978111"
+            AppIDs.instnace?.getGoogleBanner()!! ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  BannerID ->$s")
         adView.adUnitId = s

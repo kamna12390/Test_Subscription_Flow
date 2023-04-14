@@ -80,6 +80,14 @@ class MyApplication : AppSubscription(), LifecycleObserver,
             Constants.LineWithIconModel("Remove ADS",false,this.resources.getDrawable(R.drawable.ic_ads)),
             Constants.LineWithIconModel("24/7 Customer Support",false,this.resources.getDrawable(R.drawable.ic_eff_background))
         )
+        val mPremiumScreenLine = arrayListOf(
+            Constants.LineWithIconModel("Advanced Editing Tool",false,this.resources.getDrawable(R.drawable.ic_pip)),
+            Constants.LineWithIconModel("Effective Backgrounds",false,this.resources.getDrawable(R.drawable.ic_font)),
+            Constants.LineWithIconModel("Unlimited Emojis & Fonts",false,this.resources.getDrawable(R.drawable.ic_eff_background)),
+            Constants.LineWithIconModel("All PRO Creative Templates",false,this.resources.getDrawable(R.drawable.ic_true_icon)),
+            Constants.LineWithIconModel("Ads Free Experience",false,this.resources.getDrawable(R.drawable.ic_ads)),
+            Constants.LineWithIconModel("No pay for any design",false,this.resources.getDrawable(R.drawable.ic_eff_background))
+        )
         SubscriptionClass.ActivityBuilder(this)
             .Adsliber(AppID,ProcessLifecycleOwner.get())
             .setBASIC_SKU("subscribe_monthly_imagecrop")
@@ -92,7 +100,7 @@ class MyApplication : AppSubscription(), LifecycleObserver,
             .setDefaultPackagList(mPackagerenList)
             .setAppName(this.resources.getString(R.string.app_name))
             .setAppIcon(this.resources.getDrawable(R.drawable.ic_app_icon))
-            .setGreen_True_Icon(this.resources.getDrawable(R.drawable.ic_true_icon))
+//            .setGreen_True_Icon(this.resources.getDrawable(R.drawable.ic_true_icon))
             .setPremium_True_Icon(this.resources.getDrawable(R.drawable.ic_select_trail))
             .setBasic_Line_Icon(this.resources.getDrawable(R.drawable.ic_line_lock))
             .setClose_Icon(this.resources.getDrawable(R.drawable.close_icon))

@@ -84,7 +84,7 @@ dependencies {
     //Ads
     implementation 'com.google.android.gms:play-services-ads:20.2.0'
 
-//    implementation project(path: ':myadslibrary')
+    implementation project(path: ':myadslibrary')
 }
 afterEvaluate {
     publishing {

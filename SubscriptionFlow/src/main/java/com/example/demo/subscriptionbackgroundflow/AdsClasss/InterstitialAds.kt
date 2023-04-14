@@ -13,7 +13,7 @@ import com.google.android.gms.ads.FullScreenContentCallback
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
-//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 
 class InterstitialAds {
 
@@ -44,11 +44,11 @@ class InterstitialAds {
         }
 
         var s = if (Adx == true) {
-            "ca-app-pub-3940256099942544/1033173712"
-//            AppIDs.instnace?.getGoogleAdxInterstitial() ?: ""
+//            "ca-app-pub-3940256099942544/1033173712"
+            AppIDs.instnace?.getGoogleAdxInterstitial() ?: ""
         } else {
-            "ca-app-pub-3940256099942544/1033173712"
-//            AppIDs.instnace?.getGoogleInterstitial() ?: ""
+//            "ca-app-pub-3940256099942544/1033173712"
+            AppIDs.instnace?.getGoogleInterstitial() ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  InterstitialID ->$s")
         isSend=true

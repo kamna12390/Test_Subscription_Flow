@@ -14,7 +14,7 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.OnUserEarnedRewardListener
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-//import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
 
 class RewardedAds {
 
@@ -54,11 +54,11 @@ class RewardedAds {
 
 
         val s = if (Adx == true){
-            "ca-app-pub-3940256099942544/5224354917"
-//            AppIDs.instnace?.getGoogleAdxRewardVideo() ?: ""
+//            "ca-app-pub-3940256099942544/5224354917"
+            AppIDs.instnace?.getGoogleAdxRewardVideo() ?: ""
         }else{
-            "ca-app-pub-3940256099942544/5224354917"
-//            AppIDs.instnace?.getGoogleRewardVideo() ?: ""
+//            "ca-app-pub-3940256099942544/5224354917"
+            AppIDs.instnace?.getGoogleRewardVideo() ?: ""
         }
         logD(TAG, "MEDIUM_RECTANGLE  RewardedID ->$s")
 //        val s = "ca-app-pub-3940256099942544/5224354917"

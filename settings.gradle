@@ -17,4 +17,3 @@ rootProject.name = "Test Subscription Flow"
 include ':app'
 include ':SubscriptionFlow'
 include ':myadslibrary'
-//include ':Subsciption_Flow'
