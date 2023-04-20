@@ -17,6 +17,6 @@ rootProject.name = "Test Subscription Flow"
 include ':app'
 include ':SubscriptionFlow'
 //include ':myadslibrary'
-project(':SubscriptionFlow').projectDir = new File(settingsDir, 'SubscriptionFlow')
+//project(':SubscriptionFlow').projectDir = new File(settingsDir, 'SubscriptionFlow')
 //project(':myadslibrary').projectDir = new File(settingsDir, 'myadslibrary')
 

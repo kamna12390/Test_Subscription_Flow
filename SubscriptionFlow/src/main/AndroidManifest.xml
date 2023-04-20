@@ -41,11 +41,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/moreAppTheme"/>
 
-        <receiver android:exported="true"
+        <receiver android:exported="false"
             android:name=".myadslibrary.receiver.NetworkChangeReceiver">
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
+<!--            <intent-filter>-->
+<!--                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+<!--            </intent-filter>-->
         </receiver>
     </application>
 
