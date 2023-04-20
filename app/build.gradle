@@ -51,7 +51,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation project(path: ':SubscriptionFlow')
-    implementation project(path: ':myadslibrary')
+//    implementation project(path: ':myadslibrary')
 //    //Revenucat
 //    implementation 'com.revenuecat.purchases:purchases:5.4.0'
     // ViewModel and LiveData
