@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.dialog;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.dialog;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,11 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.adepters.ImageAdepter;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.AppModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection;
-import com.scribble.animation.maker.video.effect.myadslibrary.widgets.MyViewPager;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters.ImageAdepter;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.AppModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.MyViewPager;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

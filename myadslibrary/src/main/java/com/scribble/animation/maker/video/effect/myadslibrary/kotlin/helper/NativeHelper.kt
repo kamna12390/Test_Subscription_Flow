@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.helper
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.helper
 
 class NativeHelper {
 

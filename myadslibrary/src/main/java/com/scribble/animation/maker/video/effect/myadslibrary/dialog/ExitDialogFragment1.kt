@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.dialog
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -26,13 +26,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
-import com.scribble.animation.maker.video.effect.myadslibrary.R
-import com.scribble.animation.maker.video.effect.myadslibrary.adepters.AppAdepter
-import com.scribble.animation.maker.video.effect.myadslibrary.classes.GridSpacingItemDecoration1
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.AppDatabase
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.AppModel
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.repository.DialogRepository
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.R
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters.AppAdepter
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.classes.GridSpacingItemDecoration1
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.AppDatabase
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.AppModel
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.repository.DialogRepository
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection
 import kotlinx.android.synthetic.main.dailog_layout_exit_fragment.recyclerViewApp
 import kotlinx.android.synthetic.main.dailog_layout_exit_fragment.view.*
 import kotlinx.android.synthetic.main.dailog_layout_exit_fragment1.*

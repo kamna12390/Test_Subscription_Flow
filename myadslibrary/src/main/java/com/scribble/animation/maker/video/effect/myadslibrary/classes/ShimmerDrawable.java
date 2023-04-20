@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.classes;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.classes;
 
 import android.animation.ValueAnimator;
 import android.graphics.Canvas;
@@ -17,7 +17,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.classes.Shimmer;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.classes.Shimmer;
 
 public final class ShimmerDrawable extends Drawable {
     private final ValueAnimator.AnimatorUpdateListener mUpdateListener =

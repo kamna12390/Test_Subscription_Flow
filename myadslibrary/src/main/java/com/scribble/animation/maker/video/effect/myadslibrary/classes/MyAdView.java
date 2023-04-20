@@ -1,11 +1,11 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.classes;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.classes;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.ui.MoreAppActivity;
-import com.scribble.animation.maker.video.effect.myadslibrary.ui.MoreAppActivityNew;
-import com.scribble.animation.maker.video.effect.myadslibrary.ui.NewMoreAppActivity;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.ui.MoreAppActivity;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.ui.MoreAppActivityNew;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.ui.NewMoreAppActivity;
 
 public class MyAdView {
 

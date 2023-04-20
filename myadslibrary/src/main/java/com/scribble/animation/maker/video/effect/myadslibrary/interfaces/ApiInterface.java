@@ -1,7 +1,7 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.interfaces;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.interfaces;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.Response;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.ResponseModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.Response;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.ResponseModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

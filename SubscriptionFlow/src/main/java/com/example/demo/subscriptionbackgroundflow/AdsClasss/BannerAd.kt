@@ -13,7 +13,7 @@ import com.example.demo.subscriptionbackgroundflow.basemodule.BaseSharedPreferen
 import com.example.demo.subscriptionbackgroundflow.constants.Constants.isoutApp
 import com.example.demo.subscriptionbackgroundflow.helper.logD
 import com.google.android.gms.ads.*
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid.AppIDs
 import org.jetbrains.anko.windowManager
 
 

@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.widgets;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,7 +16,7 @@ import android.util.Log;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.widget.AppCompatImageView;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
+import com.example.demo.subscriptionbackgroundflow.R;
 
 public class BlurImageView extends AppCompatImageView {
 

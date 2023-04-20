@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.fargments;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.fargments;
 
 import android.content.Intent;
 import android.graphics.drawable.BitmapDrawable;
@@ -20,8 +20,8 @@ import androidx.fragment.app.Fragment;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.widgets.BlurImageView;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.BlurImageView;
 
 public class FragmentSlider extends Fragment {
 

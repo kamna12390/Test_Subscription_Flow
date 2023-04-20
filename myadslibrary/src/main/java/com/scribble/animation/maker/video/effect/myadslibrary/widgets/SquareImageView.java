@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.widgets;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets;
 
 import android.content.Context;
 import android.util.AttributeSet;

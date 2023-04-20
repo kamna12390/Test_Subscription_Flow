@@ -1,10 +1,10 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.task;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.task;
 
 import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection;
 
 import java.io.File;
 import java.io.IOException;

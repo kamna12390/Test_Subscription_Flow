@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.shared_oref;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.shared_oref;
 
 import android.content.Context;
 import android.content.SharedPreferences;

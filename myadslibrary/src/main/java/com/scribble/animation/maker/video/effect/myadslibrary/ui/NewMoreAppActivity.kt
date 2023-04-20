@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.ui
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.ui
 
 import android.content.*
 import android.graphics.drawable.Drawable
@@ -14,14 +14,14 @@ import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
-import com.scribble.animation.maker.video.effect.myadslibrary.Api.ApiNew
-import com.scribble.animation.maker.video.effect.myadslibrary.ImagesItem
-import com.scribble.animation.maker.video.effect.myadslibrary.R
-import com.scribble.animation.maker.video.effect.myadslibrary.helper.DBHelperNew
-import com.scribble.animation.maker.video.effect.myadslibrary.helper.StatusBarUtil
-import com.scribble.animation.maker.video.effect.myadslibrary.interfaces.ApiInterface
-import com.scribble.animation.maker.video.effect.myadslibrary.receiver.NetworkChangeReceiver
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.Api.ApiNew
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.ImagesItem
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.R
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.helper.DBHelperNew
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.helper.StatusBarUtil
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.interfaces.ApiInterface
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.receiver.NetworkChangeReceiver
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection
 import kotlinx.android.synthetic.main.activity_more_app_new.*
 import kotlinx.android.synthetic.main.layout_contant_main_new.*
 import kotlinx.android.synthetic.main.new_activity_more_app.*
@@ -37,7 +37,7 @@ class NewMoreAppActivity : AppCompatActivity() {
     private var mContext: Context? = null
     private var receiver: Receiver? = null
     var isCalled = false
-    var model: com.scribble.animation.maker.video.effect.myadslibrary.Response? = null
+    var model: com.example.demo.subscriptionbackgroundflow.myadslibrary.Response? = null
     private var dbHelper: DBHelperNew? = null
     var mDataStoreList: ArrayList<String> = ArrayList()
     var mDataImageLink: ArrayList<String> = ArrayList()
@@ -692,10 +692,10 @@ class NewMoreAppActivity : AppCompatActivity() {
 
         apiInterface = ApiNew.client!!.create(ApiInterface::class.java)
         apiInterface!!.allAppNew.enqueue(object :
-            Callback<com.scribble.animation.maker.video.effect.myadslibrary.Response> {
+            Callback<com.example.demo.subscriptionbackgroundflow.myadslibrary.Response> {
             override fun onResponse(
-                call: Call<com.scribble.animation.maker.video.effect.myadslibrary.Response>,
-                response: Response<com.scribble.animation.maker.video.effect.myadslibrary.Response>
+                call: Call<com.example.demo.subscriptionbackgroundflow.myadslibrary.Response>,
+                response: Response<com.example.demo.subscriptionbackgroundflow.myadslibrary.Response>
             ) {
 
                 Log.d("TAG", "responseCode: ${response.body()!!.responseCode}")
@@ -927,7 +927,7 @@ class NewMoreAppActivity : AppCompatActivity() {
             }
 
             override fun onFailure(
-                call: Call<com.scribble.animation.maker.video.effect.myadslibrary.Response>,
+                call: Call<com.example.demo.subscriptionbackgroundflow.myadslibrary.Response>,
                 t: Throwable
             ) {
                 runOnUiThread {

@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -14,7 +14,7 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.OnUserEarnedRewardListener
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid.AppIDs
 
 class RewardedAds {
 

@@ -1,6 +1,6 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.Api;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.Api;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.interfaces.ApiInterface;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.interfaces.ApiInterface;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api
 
 class ApiHelper(private val apiService: ApiService) {
 

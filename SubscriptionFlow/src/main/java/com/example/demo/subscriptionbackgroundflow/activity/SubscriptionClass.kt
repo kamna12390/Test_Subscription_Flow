@@ -32,8 +32,8 @@ import com.example.demo.subscriptionbackgroundflow.viewmodel.Config
 import com.revenuecat.purchases.Purchases
 import com.revenuecat.purchases.PurchasesConfiguration
 import com.revenuecat.purchases.getOfferingsWith
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.Helper
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.Helper
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid.AppIDs
  object SubscriptionClass {
     public class ActivityBuilder(private val activity: Context) :
         Builder(activity) {

@@ -18,7 +18,7 @@ import com.google.android.gms.ads.*
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import com.google.android.gms.ads.nativead.NativeAdView
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid.AppIDs
 import org.jetbrains.anko.layoutInflater
 
 class NativeAds {

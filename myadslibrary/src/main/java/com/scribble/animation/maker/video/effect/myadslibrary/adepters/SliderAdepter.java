@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.adepters;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.fargments.FragmentSlider;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.AppModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.fargments.FragmentSlider;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.AppModel;
 
 import java.util.ArrayList;
 import java.util.Random;

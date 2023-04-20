@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.ui;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -40,16 +40,16 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.scribble.animation.maker.video.effect.myadslibrary.Api.Api;
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.adepters.AppAdepter;
-import com.scribble.animation.maker.video.effect.myadslibrary.classes.GridSpacingItemDecoration;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.AppModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.ResponseModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.receiver.NetworkChangeReceiver;
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.GridDividerDecoration;
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.GridDividerItemDecoration;
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.Api.Api;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters.AppAdepter;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.classes.GridSpacingItemDecoration;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.AppModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.ResponseModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.receiver.NetworkChangeReceiver;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.GridDividerDecoration;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.GridDividerItemDecoration;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -101,7 +101,7 @@ public class AdActivity extends AppCompatActivity implements AppAdepter.OnAppCli
         mNetworkReceiver = new NetworkChangeReceiver();
 
         registerReceiver(mNetworkReceiver, new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE"));
-        registerReceiver(receiver, new IntentFilter("com.scribble.animation.maker.video.effect.myadslibrary.custom"));
+        registerReceiver(receiver, new IntentFilter("com.example.demo.subscriptionbackgroundflow.myadslibrary.custom"));
 
         initView();
 

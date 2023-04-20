@@ -12,7 +12,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.FullScreenContentCallback
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.appopen.AppOpenAd
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid.AppIDs
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid.AppIDs
 import java.text.SimpleDateFormat
 import java.util.*
 

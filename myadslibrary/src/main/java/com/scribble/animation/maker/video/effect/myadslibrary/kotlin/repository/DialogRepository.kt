@@ -1,8 +1,8 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.repository
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.repository
 
 import androidx.lifecycle.LiveData
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.AppDatabase
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity.AppEntity
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.AppDatabase
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity.AppEntity
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.runBlocking
 

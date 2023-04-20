@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.utils;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.utils;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,8 +10,8 @@ import android.view.View;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.adepters.AppAdepter;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters.AppAdepter;
 
 public class GridDividerDecoration extends RecyclerView.ItemDecoration {
 

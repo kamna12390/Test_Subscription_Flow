@@ -1,6 +1,6 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.repository
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.repository
 
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api.ApiHelper
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api.ApiHelper
 
 class MainRepository(
         private val mApiHelper: ApiHelper

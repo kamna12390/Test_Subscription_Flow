@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.Api
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.Api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

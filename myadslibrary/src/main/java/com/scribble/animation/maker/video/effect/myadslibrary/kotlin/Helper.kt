@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -9,8 +9,8 @@ import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.WorkRequest
 import com.google.common.util.concurrent.ListenableFuture
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.tasks.DataSyncWorker
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.tasks.DataSyncWorker
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection
 import java.util.concurrent.ExecutionException
 
 

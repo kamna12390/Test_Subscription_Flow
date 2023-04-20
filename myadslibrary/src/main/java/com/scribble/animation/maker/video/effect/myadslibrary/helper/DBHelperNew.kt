@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.helper
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.helper
 
 import android.content.ContentValues
 import android.content.Context

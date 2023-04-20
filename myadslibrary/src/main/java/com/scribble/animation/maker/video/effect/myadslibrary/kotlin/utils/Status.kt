@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.utils
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.utils
 
 enum class Status {
     SUCCESS,

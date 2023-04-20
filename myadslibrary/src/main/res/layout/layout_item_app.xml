@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    &lt;!&ndash;<com.example.demo.subscriptionbackgroundflow.widgets.ShimmerFrameLayout
+    &lt;!&ndash;<com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.ShimmerFrameLayout
         android:id="@+id/shimmerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <com.example.demo.subscriptionbackgroundflow.widgets.SquareImageView
+                    <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SquareImageView
                         android:id="@+id/imgAppIcon"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
-                    <com.example.demo.subscriptionbackgroundflow.widgets.SquareImageView
+                    <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SquareImageView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
 
 
 
-    &lt;!&ndash; </com.example.demo.subscriptionbackgroundflow.widgets.ShimmerFrameLayout>&ndash;&gt;
+    &lt;!&ndash; </com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.ShimmerFrameLayout>&ndash;&gt;
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>-->
@@ -125,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.example.demo.subscriptionbackgroundflow.widgets.SquareImageView
+            <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SquareImageView
                 android:id="@+id/imgAppIcon"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -135,7 +135,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.example.demo.subscriptionbackgroundflow.widgets.SquareImageView
+            <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SquareImageView
                 android:id="@+id/ad_lable"
                 android:layout_width="@dimen/_80sdp"
                 android:layout_height="@dimen/_80sdp"

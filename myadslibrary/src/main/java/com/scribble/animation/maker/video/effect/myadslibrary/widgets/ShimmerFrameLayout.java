@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.widgets;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.classes.Shimmer;
-import com.scribble.animation.maker.video.effect.myadslibrary.classes.ShimmerDrawable;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.classes.Shimmer;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.classes.ShimmerDrawable;
 
 public class ShimmerFrameLayout extends FrameLayout {
     private final Paint mContentPaint = new Paint();

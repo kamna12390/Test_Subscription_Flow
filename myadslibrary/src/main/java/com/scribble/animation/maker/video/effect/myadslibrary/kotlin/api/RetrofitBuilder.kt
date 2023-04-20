@@ -1,6 +1,6 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api
 
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.helper.NativeHelper
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.helper.NativeHelper
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

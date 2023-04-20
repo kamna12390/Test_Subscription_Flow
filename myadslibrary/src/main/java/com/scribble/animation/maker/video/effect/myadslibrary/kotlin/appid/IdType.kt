@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.appid
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.appid
 
 enum class IdType {
 

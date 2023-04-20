@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.tasks
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.tasks
 
 import android.content.Context
 import android.os.Build
@@ -10,16 +10,16 @@ import com.android.volley.VolleyLog
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import com.google.gson.Gson
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api.ApiHelper
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api.RetrofitBuilder
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.AppDatabase
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity.AppEntity
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity.IdEntity
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.helper.NativeHelper
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.AppModel
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.ResponseID
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.ResponseModel
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.repository.MainRepository
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api.ApiHelper
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api.RetrofitBuilder
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.AppDatabase
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity.AppEntity
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity.IdEntity
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.helper.NativeHelper
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.AppModel
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.ResponseID
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.ResponseModel
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.repository.MainRepository
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlin.coroutines.resume

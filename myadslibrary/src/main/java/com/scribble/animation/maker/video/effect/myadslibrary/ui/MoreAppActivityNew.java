@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.ui;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -39,16 +39,16 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.google.gson.Gson;
-import com.scribble.animation.maker.video.effect.myadslibrary.Api.Api;
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.adepters.MoreAppAdepter;
-import com.scribble.animation.maker.video.effect.myadslibrary.dialog.FullscreenDialog;
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.helper.NativeHelper;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.AppDateModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.AppModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.model.ResponseModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.receiver.NetworkChangeReceiver;
-import com.scribble.animation.maker.video.effect.myadslibrary.utils.InternetConnection;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.Api.Api;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters.MoreAppAdepter;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.dialog.FullscreenDialog;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.helper.NativeHelper;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.AppDateModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.AppModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.model.ResponseModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.receiver.NetworkChangeReceiver;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.utils.InternetConnection;
 
 import org.json.JSONObject;
 
@@ -94,7 +94,7 @@ public class MoreAppActivityNew extends AppCompatActivity implements MoreAppAdep
         mNetworkReceiver = new NetworkChangeReceiver();
 
         registerReceiver(mNetworkReceiver, new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE"));
-        registerReceiver(receiver, new IntentFilter("com.scribble.animation.maker.video.effect.myadslibrary.custom"));
+        registerReceiver(receiver, new IntentFilter("com.example.demo.subscriptionbackgroundflow.myadslibrary.custom"));
 
         mContext = this;
 

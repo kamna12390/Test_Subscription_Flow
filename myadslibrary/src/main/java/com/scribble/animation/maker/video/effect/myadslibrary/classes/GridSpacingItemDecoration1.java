@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.classes;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.classes;
 
 import android.graphics.Rect;
 import android.view.View;

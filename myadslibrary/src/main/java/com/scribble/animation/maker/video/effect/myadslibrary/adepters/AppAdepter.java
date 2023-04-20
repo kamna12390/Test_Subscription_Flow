@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.adepters;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.adepters;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -21,9 +21,9 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.AppModel;
-import com.scribble.animation.maker.video.effect.myadslibrary.widgets.SquareImageView;
+import com.example.demo.subscriptionbackgroundflow.R;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.AppModel;
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SquareImageView;
 
 import java.util.ArrayList;
 

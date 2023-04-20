@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.widgets;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
+import com.example.demo.subscriptionbackgroundflow.R;
 
 
 public class RoundCornersImageView extends AppCompatImageView {

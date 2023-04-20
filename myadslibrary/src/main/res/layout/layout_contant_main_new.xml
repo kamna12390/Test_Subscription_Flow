@@ -9,7 +9,7 @@
     tools:showIn="@layout/activity_more_app">
 
 
-    <com.example.demo.subscriptionbackgroundflow.widgets.LockableNestedScrollView
+    <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.LockableNestedScrollView
         android:id="@+id/nestedScrollview"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.example.demo.subscriptionbackgroundflow.widgets.SlideViewPager
+            <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SlideViewPager
                 android:id="@+id/adSlider"
                 android:layout_width="match_parent"
                 android:visibility="gone"
@@ -32,7 +32,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-            </com.example.demo.subscriptionbackgroundflow.widgets.SlideViewPager>
+            </com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.SlideViewPager>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout2"
@@ -141,7 +141,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.example.demo.subscriptionbackgroundflow.widgets.LockableNestedScrollView>
+    </com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.LockableNestedScrollView>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ctOffline"

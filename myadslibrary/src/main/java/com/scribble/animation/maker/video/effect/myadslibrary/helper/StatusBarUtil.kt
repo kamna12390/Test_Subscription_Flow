@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.helper
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.helper
 
 import android.app.Activity
 import android.content.res.Resources
@@ -9,7 +9,7 @@ import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.core.content.ContextCompat
-import com.scribble.animation.maker.video.effect.myadslibrary.R
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.R
 
 object StatusBarUtil {
     //Make it status bar light & Dark

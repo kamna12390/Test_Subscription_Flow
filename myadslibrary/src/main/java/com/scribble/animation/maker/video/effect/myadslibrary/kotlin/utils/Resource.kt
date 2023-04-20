@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.utils
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.utils
 
 data class Resource<out T>(val status: Status, val data: T?, val message: String?) {
     companion object {

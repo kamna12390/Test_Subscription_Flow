@@ -1,7 +1,7 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.api
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.api
 
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.ResponseID
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model.ResponseModel
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.ResponseID
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model.ResponseModel
 import retrofit2.http.GET
 
 interface ApiService {

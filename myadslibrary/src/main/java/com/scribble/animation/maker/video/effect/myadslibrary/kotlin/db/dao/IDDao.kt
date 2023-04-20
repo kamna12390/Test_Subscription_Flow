@@ -1,7 +1,7 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.dao
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.dao
 
 import androidx.room.*
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity.IdEntity
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity.IdEntity
 
 @Dao
 interface IDDao {

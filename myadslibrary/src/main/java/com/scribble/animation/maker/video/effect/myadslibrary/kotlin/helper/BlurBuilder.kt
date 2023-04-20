@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.helper
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.helper
 
 import android.content.Context
 import android.graphics.Bitmap

@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.utils;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

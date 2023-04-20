@@ -1,8 +1,8 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.dao
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.scribble.animation.maker.video.effect.myadslibrary.kotlin.db.entity.AppEntity
+import com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.db.entity.AppEntity
 
 @Dao
 interface AppDao {

@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.kotlin.model
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.kotlin.model
 
 import com.google.gson.annotations.SerializedName
 import java.util.*

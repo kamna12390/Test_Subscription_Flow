@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.model;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.model;
 
 import java.util.Date;
 

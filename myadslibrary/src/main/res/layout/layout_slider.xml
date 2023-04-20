@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.example.demo.subscriptionbackgroundflow.widgets.BlurImageView
+            <com.example.demo.subscriptionbackgroundflow.myadslibrary.widgets.BlurImageView
                 android:id="@+id/imgBlurImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

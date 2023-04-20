@@ -1,4 +1,4 @@
-package com.scribble.animation.maker.video.effect.myadslibrary.classes;
+package com.example.demo.subscriptionbackgroundflow.myadslibrary.classes;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -12,7 +12,7 @@ import androidx.annotation.FloatRange;
 import androidx.annotation.IntDef;
 import androidx.annotation.Px;
 
-import com.scribble.animation.maker.video.effect.myadslibrary.R;
+import com.example.demo.subscriptionbackgroundflow.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
