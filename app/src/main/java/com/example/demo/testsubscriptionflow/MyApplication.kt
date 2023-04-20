@@ -27,19 +27,19 @@ class MyApplication : AppSubscription(), LifecycleObserver,
     Application.ActivityLifecycleCallbacks {
     private var mPackagerenList = arrayListOf(
         Constants.PackagesRen(
-            originalPrice = "₹650.00",
+            originalPrice = "₹610.00",
             freeTrialPeriod = "P1W",
             title = "Image Crop - Monthly PRO (Photo Crop: Cut, Convert, Trim)",
-            price = "₹650.00",
+            price = "₹610.00",
             description = "",
             subscriptionPeriod = "P1M",
             sku = "subscribe_monthly_imagecrop_799"
         ),
         Constants.PackagesRen(
-            originalPrice = "₹3,300.00",
+            originalPrice = "₹3,100.00",
             freeTrialPeriod = "P1W",
             title = "Image Crop - Monthly PRO (Photo Crop: Cut, Convert, Trim)",
-            price = "₹3,300.00",
+            price = "₹3,100.00",
             description = "",
             subscriptionPeriod = "P1Y",
             sku = "subscribe_yearly_imagecrop_3999"
